@@ -1,6 +1,6 @@
 #Manipulating Files and Directories
 
-*Excerpt from [The Linux Command Line by William E. Shotts Jr. pg 19 ](http://www.amazon.com/Linux-Command-Line-Complete-Introduction/dp/1593273894/ref=sr_1_1?s=books&ie=UTF8&qid=1456194414&sr=1-1)*
+*Excerpt from [The Linux Command Line by William E. Shotts Jr. ch. 4 ](http://www.amazon.com/Linux-Command-Line-Complete-Introduction/dp/1593273894/ref=sr_1_1?s=books&ie=UTF8&qid=1456194414&sr=1-1)*
 
 * `cp` - Copy files and directories.
 * `mv` - Move/rename files and directories.
