@@ -4,3 +4,4 @@ It's a work in progress.
 
 ##Contents
 1. [Directories Found in Linux](linux-directories.md)
+2. [Manipulating Files and Directories](manipulating-files-and-directories.md)
