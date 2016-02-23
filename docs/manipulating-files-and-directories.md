@@ -42,4 +42,26 @@
 |`[![:digit:]]*` | Any file not beginning with a numeral |
 |`*[[:lower:]123]` | Any file ending with a lowercase letter or the numerals *1*, *2*, or *3* |
 
+##`cp` -- Copy Files and Directories
+
+The `cp` command copies files or directories. It can be used two different ways:
+
+```cp item1 item2```
+
+to copy the single file or directory *item1* to file or directory *item2* and:
+
+```cp item... directory```
+
+to copy multiple items (either files or directories) into a directory.
+
+###`cp` Options
+
+|Option|Meaning|
+|---|---|
+|`-a, --archive`| Copy the files and directories and all of their attributes, including ownerships and permissions. Normally, copies take on the default attributes of the user performing the copy.|
+|`-i, --interactive`| Before overwriting an existing file, prompt the user for confirmation. <br>**If this option is not specified, `cp` will silently overwrite files.**|
+|`-r, --recursive`| Recursively copy directories and their contents. This option (or the -a option) is required when copying directories.|
+|`u, --update`|When copying files from one directory to another, copy only files that either don’t exist or are newer than the existing corresponding files in the destination directory.|
+|`-v, --verbose`|Display informative messages as the copy is performed.|
+
 **more to come... stay tuned**
