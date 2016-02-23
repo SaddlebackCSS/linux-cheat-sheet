@@ -88,7 +88,7 @@ to move one or more items from one directory to another.
 ###`mv` Options
 |Option|Meaning|
 |---|---|
-|`-i, --interactive`|Before overwriting and existing file, prompt the user for confirmation. <br>**If this option is not specified, `mv` will silently overwrite files.|
+|`-i, --interactive`|Before overwriting and existing file, prompt the user for confirmation. <br>**If this option is not specified, `mv` will silently overwrite files.**|
 |`-u, --update`|When moving files from one directory to another, move only files that either don't exist in the destination directory or are newer than the existing corresponding files in the destination directory.|
 |`-v, --verbose`|Display informative messages as the move is performed.|
 
