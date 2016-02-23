@@ -64,4 +64,13 @@ to copy multiple items (either files or directories) into a directory.
 |`u, --update`|When copying files from one directory to another, copy only files that either don’t exist or are newer than the existing corresponding files in the destination directory.|
 |`-v, --verbose`|Display informative messages as the copy is performed.|
 
+###`cp` Examples
+
+|Command|Results|
+|---|---|
+|`cp file1 file2`|Copy *file1* to *file2*. **If file2 exists, it is overwritten with the contents of file1.**<br>If file2 does not exist, it is created.|
+|`cp -i file1 file2`|Same as aboce, except that if *file2* exists, the user is prompted before it is overwritten.|
+|`cp file1 file2 dir1`|Copy *file1* and *file2* into directory *dir1*. *dir1* must already exist.|
+|`cp dir1/* dir2`|Using a wildcard, all the files in *dir1* are copied into *dir2*. *dir2* must already exist.|
+|`cp -r dir1 dir2`|Copy directory *dir1* (and its contents) to directory *dir2*.<br>If directory *dir2* does not exist, it is created and will contain the same contents as directory *dir1*.|
 **more to come... stay tuned**
