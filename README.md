@@ -53,3 +53,14 @@ code.
 [linuxfoundation.org](http://www.linuxfoundation.org/) is the official
 website for the Linux Foundation and its members.
 
+[The GNU Project](http://www.gnu.org/) provides the user-interaction layer
+(aka the *core utilities*) on top of the Linux kernel.
+
+[The Free Software Foundation](http://www.fsf.org/) promotes the freedom of
+computer users to use and modify software for any purpose.
+They provide critical infrastructure and funding for the GNU project.
+
+[The Open Source Initiative](https://opensource.org/) is a non-profit
+corporation which, among other things, defines "Open Source" and approves
+open-source licenses.
+
