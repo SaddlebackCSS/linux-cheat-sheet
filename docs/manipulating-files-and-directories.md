@@ -7,6 +7,7 @@
 * `mkdir` - Create directories.
 * `rm` - Remove files and directories.
 * `ln` Create hard and symbolic links.
+* `touch` Create a file.
 
 ##Wildcards
 
