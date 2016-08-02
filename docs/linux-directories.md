@@ -23,7 +23,7 @@
 | `/usr/lib` | The shared libraries for the programs in `/usr/bin`. |
 | `/usr/local` | The `/usr/local` tree is where programs that are not included with your distribution but are intended for system-wide use are installed. Programs compiled from source code are normally installed in `/usr/local/bin`. On a newly installed Linux system, this tree exists, but it will be empty until the system administrator puts something in it. |
 | `/usr/sbin` | Contains more system administration programs. |
-| `/usr/share` | `/usr/share` contains all the shared data used by programs i `/usr/bin`. This includes things like default configuration files, icons, screen backgrounds, sound files, etc. |
+| `/usr/share` | `/usr/share` contains all the shared data used by programs in `/usr/bin`. This includes things like default configuration files, icons, screen backgrounds, sound files, etc. |
 | `/usr/share/doc` | Most packages installed on the system will include some kind of documentation. In `/usr/share/doc`, we will find documentation files organized by package. |
 | `/var` | With the exception of `/tmp` and `/home`, the directories we have looked at so far remain relatively static; that is, their contents don't change. The `/var` directory tree is where data that is likely to change is stored. Various databases, spool files, user mail, etc. are located here.
 | `/var/log` | `/var/log` contains *log files*, records of various system activity. These are very important and should be monitored from time to time. The most useful one is `/var/log/messages`. Note that for security reasons on some systems, you must be the superuser to view log files.
